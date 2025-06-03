@@ -10,8 +10,9 @@ redirect_from:
 
 <div style="text-align:center; background: linear-gradient(to bottom, #e0f0ff, #c0d8ff, #a0c4ff); padding:5px; border-radius:15px;  box-shadow: 0 8px 20px rgba(100, 150, 255, 0.3); margin-bottom:10px; color: #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <h2 style="
-  font-size:1.25em; 
+  font-size:1.5em; 
   margin-bottom:0.25em; 
+  margin-top: 0.25em;
   border-bottom: none; 
   text-decoration: none;
 ">
