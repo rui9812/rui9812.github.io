@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align:center; background: linear-gradient(135deg, #e0f0ff, #a0c4ff); height: 20px; padding:5px; border-radius:12px;  box-shadow: 0 8px 20px rgba(100, 150, 255, 0.3); margin-bottom:10px; color: #003366;">
+<div style="text-align:center; background: linear-gradient(135deg, #e0f0ff, #a0c4ff); padding:5px; border-radius:10px;  box-shadow: 0 8px 20px rgba(100, 150, 255, 0.3); margin-bottom:10px; color: #003366;">
   <h2 style="font-size:1.5em; margin-bottom:0.25em;">👋 Welcome to <span style="color:#0055cc;">Rui Li</span>'s Homepage</h2>
 </div>
 
