@@ -12,7 +12,7 @@ redirect_from:
   <h2 style="
   font-size:1.5em; 
   margin-bottom:0.2em; 
-  margin-top: 0.8em;
+  margin-top: 1.0em;
   border-bottom: none; 
   text-decoration: none;
 ">
