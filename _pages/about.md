@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align:center; background:#f5f7fa; padding:10px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:10px;">
-  <h2 style="font-size:2em; margin-bottom:0.25em;">👋 Welcome to <span style="color:#0055cc;">Rui Li</span>'s Homepage</h2>
+<div style="text-align:center; background:#f5f7fa; padding:5px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:10px;">
+  <h2 style="font-size:1.5em; margin-bottom:0.25em;">👋 Welcome to <span style="color:#0055cc;">Rui Li</span>'s Homepage</h2>
 </div>
 
 ## 🧑‍🎓 About Me
