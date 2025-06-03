@@ -17,12 +17,7 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 - **Microsoft Research Asia** (Oct. 2021 – Feb. 2023)  
   Worked on knowledge representation learning and joint training of GNNs & LMs.
 
-<p style="margin: 0; padding: 0;">
-  <span style="display: inline-block; width: 1.5em;">💡</span>
-  <span style="display: inline-block; max-width: 90%;">
-    I am currently exploring internship opportunities related to **Self-Evolving LLM (Multi-)Agent Systems**. Please feel free to contact me if you're interested in my research or background.
-  </span>
-</p>
+💡I am currently exploring internship opportunities related to **Self-Evolving LLM (Multi-)Agent Systems**. Please feel free to contact me if you're interested in my research or background.
 
 <h2>📚 Selected Publications</h2>
 
