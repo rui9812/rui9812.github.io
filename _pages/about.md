@@ -1,6 +1,5 @@
 ---
 permalink: /
-layout: no-title
 author_profile: true
 redirect_from: 
   - /about/
@@ -38,7 +37,7 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
   [📄 Paper](https://arxiv.org/pdf/2305.14126) · [💻 Code](https://github.com/rui9812/VLP)
 
 * **HousE: Knowledge Graph Embedding with Householder Parameterization**  
-  **Rui Li**, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang
+  **Rui Li**, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang  
   *ICML 2022*  
   [📄 Paper](https://proceedings.mlr.press/v162/li22ab/li22ab.pdf) · [💻 Code](https://github.com/rui9812/HousE)
 
