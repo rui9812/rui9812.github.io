@@ -10,7 +10,6 @@ redirect_from:
 
 <div style="text-align:center; background:#f5f7fa; padding:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:20px;">
   <h2 style="font-size:2em; margin-bottom:0.5em;">👋 Welcome to <span style="color:#0055cc;">Rui Li</span>'s Homepage</h2>
-  <p style="font-size:1.1em; color:#555;">I’m a PhD candidate at Renmin University of China. Here you'll find my research, publications, and thoughts.</p>
 </div>
 
 ## 🧑‍🎓 About Me
