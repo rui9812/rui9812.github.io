@@ -1,7 +1,5 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,17 +7,22 @@ redirect_from:
 ---
 
 <h2>🧑‍🎓 About Me</h2>
-My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in Graph Neural Networks and Knowledge Graphs, particularly their interaction with LLM systems.
+My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
 
 <h2>🧑‍💻 Internship Experience</h2>
 
 - **Huawei Noah's Ark Lab** (Aug. 2024 – Feb. 2025)  
-  Conducted research on LLM agentic memory and self-bootstrapping retrieval-augmented generation.
+  Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.
 
 - **Microsoft Research Asia** (Oct. 2021 – Feb. 2023)  
-  Worked on knowledge representation learning, and explored joint training of GNNs and LMs.
+  Worked on knowledge representation learning and joint training of GNNs & LMs.
 
-💡 I am currently exploring internship opportunities related to **Self-Evolving LLM (Multi-)Agent Systems**. Please feel free to contact me if you're interested in my research or background.
+<p style="margin: 0; padding: 0;">
+  <span style="display: inline-block; width: 1.5em;">💡</span>
+  <span style="display: inline-block; max-width: 90%;">
+    I am currently exploring internship opportunities related to **Self-Evolving LLM (Multi-)Agent Systems**. Please feel free to contact me if you're interested in my research or background.
+  </span>
+</p>
 
 <h2>📚 Selected Publications</h2>
 
