@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: no-title
 author_profile: true
 redirect_from: 
   - /about/
@@ -24,12 +25,12 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 * **KnowTrace: Bootstrapping Iterative Retrieval-Augmented Generation with Structured Knowledge Tracing**  
   **Rui Li**, Quanyu Dai, Zeyu Zhang, Xu Chen, Zhenhua Dong, Ji-Rong Wen  
   *KDD 2025*  
-  [📄 Paper](https://arxiv.org/pdf/2505.20245) · [💻 GitHub](https://github.com/rui9812/KnowTrace)
+  [📄 Paper](https://arxiv.org/pdf/2505.20245) · [💻 Code](https://github.com/rui9812/KnowTrace)
 
 * **Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization**  
   **Rui Li**, Chaozhuo Li, Yanming Shen, Zeyu Zhang, Xu Chen  
   *ICML 2024*  
-  [📄 Paper](https://arxiv.org/pdf/2405.08540) · [💻 GitHub](https://github.com/rui9812/GoldE)
+  [📄 Paper](https://arxiv.org/pdf/2405.08540) · [💻 Code](https://github.com/rui9812/GoldE)
 
 * **To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion**  
   **Rui Li**, Xu Chen, Chaozhuo Li, Yanming Shen, Jianan Zhao, Yujing Wang, Weihao Han, Hao Sun, Weiwei Deng, Qi Zhang, Xing Xie  
