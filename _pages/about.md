@@ -4,6 +4,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+classes: no-title-page
 ---
 
 <h2>🧑‍🎓 About Me</h2>
