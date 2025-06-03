@@ -7,7 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Welcome to Rui Li's Homepage
+
+<div style="text-align:center; background:#f5f7fa; padding:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:20px;">
+  <h2 style="font-size:2em; margin-bottom:0.5em;">👋 Welcome to <span style="color:#0055cc;">Rui Li</span>'s Homepage</h2>
+  <p style="font-size:1.1em; color:#555;">I’m a PhD candidate at Renmin University of China. Here you'll find my research, publications, and thoughts.</p>
+</div>
 
 ## 🧑‍🎓 About Me
 My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
