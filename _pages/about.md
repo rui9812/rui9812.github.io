@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align:center; background: linear-gradient(to bottom, #e0f0ff, #c0d8ff, #a0c4ff); padding:5px; border-radius:10px; margin-bottom:1px; color: #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<div style="text-align:center; background: linear-gradient(to bottom, #e0f0ff, #c0d8ff, #a0c4ff); padding:5px; border-radius:10px; margin-bottom:-5px; color: #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <h2 style="
   font-size:1.5em; 
   margin-bottom:0.2em; 
