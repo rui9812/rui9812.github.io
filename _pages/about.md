@@ -24,7 +24,7 @@ redirect_from:
 
 My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
 
-## 🧑‍💻 Internship Experience
+## 🧑‍💻 Internship Experiences
 
 - **Huawei Noah's Ark Lab** (Aug. 2024 – Feb. 2025)  
   Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.
@@ -55,6 +55,11 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
   **Rui Li**, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang  
   *ICML 2022*  
   [📄 Paper](https://proceedings.mlr.press/v162/li22ab/li22ab.pdf) · [💻 Code](https://github.com/rui9812/HousE)
+
+  * **A New Perspective on the Effects of Spectrum in Graph Neural Networks**  
+  Mingqi Yang, Yanming Shen, **Rui Li**, Heng Qi, Qiang Zhang, Baocai Yin  
+  *ICML 2022*  
+  [📄 Paper](https://proceedings.mlr.press/v162/yang22n/yang22n.pdf) · [💻 Code](https://github.com/qslim/gnn-spectrum)
 
 ## 🏆 Awards
 
