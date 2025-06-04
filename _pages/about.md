@@ -56,7 +56,7 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
   *ICML 2022*  
   [📄 Paper](https://proceedings.mlr.press/v162/li22ab/li22ab.pdf) · [💻 Code](https://github.com/rui9812/HousE)
 
-  * **A New Perspective on the Effects of Spectrum in Graph Neural Networks**  
+* **A New Perspective on the Effects of Spectrum in Graph Neural Networks**  
   Mingqi Yang, Yanming Shen, **Rui Li**, Heng Qi, Qiang Zhang, Baocai Yin  
   *ICML 2022*  
   [📄 Paper](https://proceedings.mlr.press/v162/yang22n/yang22n.pdf) · [💻 Code](https://github.com/qslim/gnn-spectrum)
