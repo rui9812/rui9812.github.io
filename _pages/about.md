@@ -69,3 +69,5 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 - Outstanding Graduate Student, Dalian University of Technology, 2022.
 - Outstanding Undergraduate Graduate, Dalian University of Technology, 2020.
 - First-class Academic Scholarship, Dalian University of Technology, 2017-2019.
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=rExufzDkijQ4_HMmB45Q83dI6zdMP7Lcp9TTwd-MUJA&cl=ffffff&w=a"></script>
