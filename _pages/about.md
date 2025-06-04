@@ -72,6 +72,6 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 <div style="text-align: center; margin-top: 50px;">
   <script type="text/javascript" id="clustrmaps" 
-    src="//clustrmaps.com/map_v2.js?d=rExufzDkijQ4_HMmB45Q83dI6zdMP7Lcp9TTwd-MUJA&cl=ffffff&w=320">
+    src="//clustrmaps.com/map_v2.js?d=rExufzDkijQ4_HMmB45Q83dI6zdMP7Lcp9TTwd-MUJA&cl=ffffff&w=320&t=tt">
   </script>
 </div>
