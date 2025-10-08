@@ -24,9 +24,17 @@ redirect_from:
 
 My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
 
+## 🗞️ News
+
+- 🎉🎉 Two papers about LLM memory have been accepted by **NeurIPS 2025**.
+- 🎉 One paper about RAG has been accepted by **KDD 2025**.
+- 🎉 One paper about KG has been accepted by **ICML 2024**.
+- 🎉 One paper about KG has been accepted by **ACL 2023**.
+- 🎉🎉 Two papers about KG and GNN have been accepted by **ICML 2022**.
+
 ## 🧑‍💻 Internship Experiences
 
-- **Huawei Noah's Ark Lab** (Aug. 2024 – Feb. 2025)  
+- **Huawei Noah's Ark Lab** (Aug. 2024 – May 2025)  
   Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.
 
 - **Microsoft Research Asia** (Oct. 2021 – Feb. 2023)  
@@ -36,6 +44,11 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 ## 📚 Selected Publications
 
+* **CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension**  
+  **Rui Li**, Zeyu Zhang, Xiaohe Bo, Zihang Tian, Xu Chen, Quanyu Dai, Zhenhua Dong, Ruiming Tang  
+  *NeurIPS 2025*  
+  [📄 Paper](https://arxiv.org/abs/2510.05520) · [💻 Code](https://github.com/rui9812/CAM)
+  
 * **KnowTrace: Bootstrapping Iterative Retrieval-Augmented Generation with Structured Knowledge Tracing**  
   **Rui Li**, Quanyu Dai, Zeyu Zhang, Xu Chen, Zhenhua Dong, Ji-Rong Wen  
   *KDD 2025*  
