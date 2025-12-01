@@ -32,14 +32,14 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 - 🎉 One paper about KG has been accepted by **ACL 2023**.
 - 🎉🎉 Two papers about KG and GNN have been accepted by **ICML 2022**.
 
-<p style="color: red;">💡I am currently seeking internship opportunities related to <b>Self-Evolving LLM Agent Systems</b>. Please feel free to contact me if you are interested in my research or background.</p>
+<p style="color: red;">💡I am currently seeking internship opportunities related to <b>Self-Evolving Agent/RAG Systems</b>. Please feel free to contact me if you are interested in my research or background.</p>
 
 ## 🧑‍💻 Internship Experiences
 
-- **Huawei Noah's Ark Lab** (Aug. 2024 – May 2025)  
+- **Huawei Noah's Ark Lab** (Aug. 2024 – Oct. 2025)  
   Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.
 
-- **Microsoft Research Asia** (Oct. 2021 – Feb. 2023)  
+- **Microsoft Research Asia** (Oct. 2021 – Apr. 2023)  
   Worked on knowledge representation learning and joint training of GNNs & LMs.
 
 ## 📚 Selected Publications
