@@ -32,49 +32,52 @@ redirect_from:
     color: #111827;
   }
 
-  /* --- 实习经历专属美化 --- */
+  /* --- 实习经历专属美化 (时间线胶囊版) --- */
   .exp-list {
     padding-left: 0;
     list-style: none;
     margin-top: 15px;
   }
   
-  /* 这里缩小了各项之间的行距，让排版更紧凑 */
   .exp-list li {
-    margin-bottom: 0.8em; 
+    margin-bottom: 1.5em; 
+    padding-left: 16px;
+    border-left: 3px solid #e2e8f0; /* 左侧添加时间线风格的浅色竖线 */
+    transition: border-color 0.3s ease;
+  }
+
+  .exp-list li:hover {
+    border-left-color: #93c5fd; /* 鼠标悬浮时竖线变蓝，增加动态质感 */
   }
 
   .exp-title {
-    font-size: 1.05em;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif !important; /* 公司名使用更硬朗的字体 */
+    font-weight: 700;
     color: #111827;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
+    margin-bottom: 6px; /* 拉开标题和描述的一点点距离 */
   }
 
   .exp-program {
+    font-family: 'Inter', sans-serif !important;
     font-weight: 600;
     color: #0369a1; 
-    background-color: #f0f9ff;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 0.85em;
-    border: 1px solid #bae6fd;
+    background-color: #e0f2fe; /* 纯色软背景，去掉生硬的边框 */
+    padding: 3px 12px;
+    border-radius: 20px; /* 极致圆角的胶囊形状 */
+    font-size: 0.75em;
+    letter-spacing: 0.5px; /* 稍微拉开字母间距，显得更精致 */
   }
 
   .exp-desc {
-    color: #4b5563; 
+    font-family: 'Inter', sans-serif !important;
+    color: #64748b; /* 更高级的灰蓝色，与纯黑标题形成鲜明对比 */
     font-size: 0.95em;
-    margin-top: 2px;
-    display: flex;
-  }
-
-  .exp-desc::before {
-    content: "▸";
-    color: #9ca3af;
-    margin-right: 8px;
-    font-size: 1.1em;
+    line-height: 1.6;
   }
 
   /* --- 论文列表专属美化 (纯HTML结构，100%稳定) --- */
@@ -151,20 +154,20 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 <ul class="exp-list">
   <li>
-    <div class="exp-title"><b>ByteDance TikTok</b> <span class="exp-program">Soaring Star Talent Intern Program</span></div>
-    <div class="exp-desc"><div>Worked on personalized memory system design for Tako.</div></div>
+    <div class="exp-title">ByteDance TikTok <span class="exp-program">Soaring Star Talent Intern Program</span></div>
+    <div class="exp-desc">Worked on personalized memory system design for Tako.</div>
   </li>
   <li>
-    <div class="exp-title"><b>Xiaohongshu</b> <span class="exp-program">AI Search</span></div>
-    <div class="exp-desc"><div>Worked on multi-agent systems and agentic RL.</div></div>
+    <div class="exp-title">Xiaohongshu <span class="exp-program">AI Search</span></div>
+    <div class="exp-desc">Worked on multi-agent systems and agentic RL.</div>
   </li>
   <li>
-    <div class="exp-title"><b>Huawei Noah's Ark Lab</b> <span class="exp-program">Agentic Memory</span></div>
-    <div class="exp-desc"><div>Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.</div></div>
+    <div class="exp-title">Huawei Noah's Ark Lab <span class="exp-program">Agentic Memory</span></div>
+    <div class="exp-desc">Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.</div>
   </li>
   <li>
-    <div class="exp-title"><b>Microsoft Research Asia</b> <span class="exp-program">Graph Learning</span></div>
-    <div class="exp-desc"><div>Worked on knowledge representation learning and joint training of GNNs & LMs.</div></div>
+    <div class="exp-title">Microsoft Research Asia <span class="exp-program">Graph Learning</span></div>
+    <div class="exp-desc">Worked on knowledge representation learning and joint training of GNNs & LMs.</div>
   </li>
 </ul>
 
