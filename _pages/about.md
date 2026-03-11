@@ -32,9 +32,15 @@ redirect_from:
     color: #111827;
   }
 
-  /* --- 论文列表专属美化 --- */
+  /* --- 论文列表专属美化 (纯HTML结构，100%稳定) --- */
+  .pub-list {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
   .pub-list li {
-    margin-bottom: 1.2em; /* 拉开每篇论文的间距 */
+    margin-bottom: 1.5em; /* 拉开每篇论文的间距 */
+    line-height: 1.6;
   }
   
   /* 将斜体的会议名称渲染为高亮标签 */
@@ -46,24 +52,28 @@ redirect_from:
     padding: 2px 8px;
     border-radius: 6px;
     font-size: 0.9em;
-    margin-right: 5px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 4px;
   }
 
   /* 将 Paper/Code 链接渲染为现代按钮 */
-  .pub-list a {
+  .pub-list a.btn {
     display: inline-block;
     background-color: #f3f4f6;
     color: #374151 !important;
-    padding: 2px 10px;
+    padding: 3px 10px;
     border-radius: 6px;
     font-size: 0.85em;
     font-weight: 500;
     text-decoration: none !important;
     border: 1px solid #e5e7eb;
     transition: all 0.2s ease-in-out;
+    margin-right: 5px;
+    margin-top: 4px;
   }
   
-  .pub-list a:hover {
+  .pub-list a.btn:hover {
     background-color: #e5e7eb;
     transform: translateY(-1px);
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
@@ -102,27 +112,55 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 ## 📚 Selected Publications
 
-<div class="pub-list">
+<ul class="pub-list">
+  <li>
+    <b>CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension</b><br>
+    <b>Rui Li</b>, Zeyu Zhang, Xiaohe Bo, Zihang Tian, Xu Chen, Quanyu Dai, Zhenhua Dong, Ruiming Tang<br>
+    <em>NeurIPS 2025</em> 
+    <a href="https://arxiv.org/abs/2510.05520" class="btn">📄 Paper</a> 
+    <a href="https://github.com/rui9812/CAM" class="btn">💻 Code</a>
+  </li>
 
-* **CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension** **Rui Li**, Zeyu Zhang, Xiaohe Bo, Zihang Tian, Xu Chen, Quanyu Dai, Zhenhua Dong, Ruiming Tang  
-  *NeurIPS 2025* [📄 Paper](https://arxiv.org/abs/2510.05520) [💻 Code](https://github.com/rui9812/CAM)
-  
-* **KnowTrace: Bootstrapping Iterative Retrieval-Augmented Generation with Structured Knowledge Tracing** **Rui Li**, Quanyu Dai, Zeyu Zhang, Xu Chen, Zhenhua Dong, Ji-Rong Wen  
-  *KDD 2025* [📄 Paper](https://arxiv.org/pdf/2505.20245) [💻 Code](https://github.com/rui9812/KnowTrace)
+  <li>
+    <b>KnowTrace: Bootstrapping Iterative Retrieval-Augmented Generation with Structured Knowledge Tracing</b><br>
+    <b>Rui Li</b>, Quanyu Dai, Zeyu Zhang, Xu Chen, Zhenhua Dong, Ji-Rong Wen<br>
+    <em>KDD 2025</em> 
+    <a href="https://arxiv.org/pdf/2505.20245" class="btn">📄 Paper</a> 
+    <a href="https://github.com/rui9812/KnowTrace" class="btn">💻 Code</a>
+  </li>
 
-* **Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization** **Rui Li**, Chaozhuo Li, Yanming Shen, Zeyu Zhang, Xu Chen  
-  *ICML 2024* [📄 Paper](https://arxiv.org/pdf/2405.08540) [💻 Code](https://github.com/rui9812/GoldE)
+  <li>
+    <b>Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization</b><br>
+    <b>Rui Li</b>, Chaozhuo Li, Yanming Shen, Zeyu Zhang, Xu Chen<br>
+    <em>ICML 2024</em> 
+    <a href="https://arxiv.org/pdf/2405.08540" class="btn">📄 Paper</a> 
+    <a href="https://github.com/rui9812/GoldE" class="btn">💻 Code</a>
+  </li>
 
-* **To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion** **Rui Li**, Xu Chen, Chaozhuo Li, Yanming Shen, Jianan Zhao, Yujing Wang, Weihao Han, Hao Sun, Weiwei Deng, Qi Zhang, Xing Xie  
-  *ACL 2023 Main Conference* [📄 Paper](https://arxiv.org/pdf/2305.14126) [💻 Code](https://github.com/rui9812/VLP)
+  <li>
+    <b>To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion</b><br>
+    <b>Rui Li</b>, Xu Chen, Chaozhuo Li, Yanming Shen, Jianan Zhao, Yujing Wang, Weihao Han, Hao Sun, Weiwei Deng, Qi Zhang, Xing Xie<br>
+    <em>ACL 2023 Main Conference</em> 
+    <a href="https://arxiv.org/pdf/2305.14126" class="btn">📄 Paper</a> 
+    <a href="https://github.com/rui9812/VLP" class="btn">💻 Code</a>
+  </li>
 
-* **HousE: Knowledge Graph Embedding with Householder Parameterization** **Rui Li**, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang  
-  *ICML 2022* [📄 Paper](https://proceedings.mlr.press/v162/li22ab/li22ab.pdf) [💻 Code](https://github.com/rui9812/HousE)
+  <li>
+    <b>HousE: Knowledge Graph Embedding with Householder Parameterization</b><br>
+    <b>Rui Li</b>, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang<br>
+    <em>ICML 2022</em> 
+    <a href="https://proceedings.mlr.press/v162/li22ab/li22ab.pdf" class="btn">📄 Paper</a> 
+    <a href="https://github.com/rui9812/HousE" class="btn">💻 Code</a>
+  </li>
 
-* **A New Perspective on the Effects of Spectrum in Graph Neural Networks** Mingqi Yang, Yanming Shen, **Rui Li**, Heng Qi, Qiang Zhang, Baocai Yin  
-  *ICML 2022* [📄 Paper](https://proceedings.mlr.press/v162/yang22n/yang22n.pdf) [💻 Code](https://github.com/qslim/gnn-spectrum)
-
-</div>
+  <li>
+    <b>A New Perspective on the Effects of Spectrum in Graph Neural Networks</b><br>
+    Mingqi Yang, Yanming Shen, <b>Rui Li</b>, Heng Qi, Qiang Zhang, Baocai Yin<br>
+    <em>ICML 2022</em> 
+    <a href="https://proceedings.mlr.press/v162/yang22n/yang22n.pdf" class="btn">📄 Paper</a> 
+    <a href="https://github.com/qslim/gnn-spectrum" class="btn">💻 Code</a>
+  </li>
+</ul>
 
 ## 🏆 Awards
 
