@@ -183,6 +183,12 @@ My name is Rui Li. I am currently a third-year PhD candidate in Renmin Universit
 </div>
 I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
 
+<div style="background-color: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 18px; margin: 25px 0; border-radius: 4px;">
+  <p style="color: #92400e; margin: 0; font-size: 0.95em;">
+    💡 I am expected to graduate in June 2027. I am currently seeking internship opportunities related to LLM-based Agents, especially <b style="color: #c2410c;">Multi-Agent Systems</b> and <b style="color: #c2410c;">Agentic Memory</b>. Please feel free to contact me if you are interested in my research or background.
+  </p>
+</div>
+
 ## 🗞️ News
 
 - 🎉 One paper about agent optimization has been accepted by **ICLR 2026**.
@@ -191,12 +197,6 @@ I also maintain a strong interest in GNNs and Knowledge Graphs, particularly the
 - 🎉 One paper about KG has been accepted by **ICML 2024**.
 - 🎉 One paper about KG has been accepted by **ACL 2023**.
 - 🎉🎉 Two papers about KG and GNN have been accepted by **ICML 2022**.
-
-<div style="background-color: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 18px; margin: 25px 0; border-radius: 4px;">
-  <p style="color: #92400e; margin: 0; font-size: 0.95em;">
-    💡 I am expected to graduate in June 2027. I am currently seeking internship opportunities related to LLM-based Agents, especially <b style="color: #c2410c;">Multi-Agent Systems</b> and <b style="color: #c2410c;">Agentic Memory</b>. Please feel free to contact me if you are interested in my research or background.
-  </p>
-</div>
 
 ## 🧑‍💻 Internship Experiences
 
