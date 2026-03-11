@@ -42,7 +42,7 @@ redirect_from:
   .exp-list li {
     margin-bottom: 1.5em; 
     padding-left: 16px;
-    border-left: 3px solid #e2e8f0; 
+    border-left: 3px solid #e2e8f0;
     transition: border-color 0.3s ease;
   }
 
@@ -91,7 +91,7 @@ redirect_from:
     line-height: 1.6;
   }
   
-  /* 已接收会议标签 (高亮蓝) */
+  /* 将斜体的会议名称渲染为高亮标签 */
   .pub-list em {
     font-style: normal;
     font-weight: 600;
@@ -103,12 +103,6 @@ redirect_from:
     margin-right: 8px;
     display: inline-block;
     margin-top: 4px;
-  }
-
-  /* 在投论文标签 (高级灰) */
-  .pub-list em.under-review {
-    color: #4b5563; 
-    background-color: #f3f4f6; 
   }
 
   /* 将 Paper/Code 链接渲染为现代按钮 */
@@ -182,15 +176,17 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 <ul class="pub-list">
   <li>
-    <b>Prompt and Parameter Co-Optimization for Large Language Models</b><br>
-    Xiaohe Bo*, <b>Rui Li*</b>, Zexu Sun, Quanyu Dai, Zeyu Zhang, Zihang Tian, Xu Chen, Zhenhua Dong<br>
-    <em>ICLR 2026</em> 
+    <b>Towards Adaptive, Scalable, and Robust Coordination of LLM Agents: A Dynamic Ad-Hoc Networking Perspective</b><br>
+    <b>Rui Li</b>, Zeyu Zhang, Xiaohe Bo, Quanyu Dai, Chaozhuo Li, Feng Wen, Xu Chen<br>
+    <em>Under Review</em> 
+    <a href="https://arxiv.org/pdf/2602.08009" class="btn">📄 Paper</a>
   </li>
 
   <li>
-    <b>Towards Adaptive, Scalable, and Robust Coordination of LLM Agents: A Dynamic Ad-Hoc Networking Perspective</b><br>
-    <b>Rui Li</b>, Zeyu Zhang, Xiaohe Bo, Quanyu Dai, Chaozhuo Li, Feng Wen, Xu Chen<br>
-    <em class="under-review">Under Review</em> 
+    <b>Prompt and Parameter Co-Optimization for Large Language Models</b><br>
+    Xiaohe Bo*, <b>Rui Li</b>*, Zexu Sun, Quanyu Dai, Zeyu Zhang, Zihang Tian, Xu Chen, Zhenhua Dong<br>
+    <em>ICLR 2026</em> 
+    <a href="https://arxiv.org/pdf/2509.24245" class="btn">📄 Paper</a>
   </li>
 
   <li>
