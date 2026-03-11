@@ -33,56 +33,47 @@ redirect_from:
   }
 
   /* --- 实习经历专属美化 --- */
-  .intern-list {
+  .exp-list {
     padding-left: 0;
     list-style: none;
     margin-top: 15px;
   }
   
-  .intern-list li {
+  .exp-list li {
     margin-bottom: 1.2em;
-    padding: 12px 16px;
-    background-color: #f9fafb; /* 极浅的灰色卡片背景 */
-    border-radius: 8px;
-    border-left: 4px solid #93c5fd; /* 左侧蓝色高亮指示线 */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
   }
-  
-  .intern-company {
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 700;
-    color: #111827;
+
+  .exp-title {
     font-size: 1.05em;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
   }
-  
-  .intern-program {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8em;
-    color: #0369a1;
-    background-color: #e0f2fe;
-    padding: 2px 8px;
-    border-radius: 6px;
-    margin-left: 8px;
+
+  .exp-program {
     font-weight: 600;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -2px;
-  }
-  
-  .intern-work {
-    margin-top: 6px;
-    font-size: 0.95em;
-    color: #4b5563;
-  }
-  
-  /* 将具体内容使用硬核的等宽代码字体显示 */
-  .intern-work span {
-    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-    background-color: #e5e7eb;
-    padding: 2px 6px;
+    color: #0369a1; /* 稍深的蓝色 */
+    background-color: #f0f9ff;
+    padding: 2px 8px;
     border-radius: 4px;
-    font-size: 0.9em;
-    color: #1f2937;
+    font-size: 0.85em;
+    border: 1px solid #bae6fd;
+  }
+
+  .exp-desc {
+    color: #4b5563; /* 较柔和的灰色，与标题拉开区分度 */
+    font-size: 0.95em;
+    margin-top: 4px;
+    display: flex;
+  }
+
+  .exp-desc::before {
+    content: "▸";
+    color: #9ca3af;
+    margin-right: 8px;
+    font-size: 1.1em;
   }
 
   /* --- 论文列表专属美化 (纯HTML结构，100%稳定) --- */
@@ -157,22 +148,22 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 ## 🧑‍💻 Internship Experiences
 
-<ul class="intern-list">
+<ul class="exp-list">
   <li>
-    <div class="intern-company">ByteDance TikTok <span class="intern-program">Soaring Star Talent Intern Program</span></div>
-    <div class="intern-work">🛠️ <b>Worked on:</b> <span>个性化记忆系统设计 for Tako</span></div>
+    <div class="exp-title"><b>ByteDance TikTok</b> <span class="exp-program">Soaring Star Talent Intern Program</span></div>
+    <div class="exp-desc"><div>Worked on personalized memory system design for Tako.</div></div>
   </li>
   <li>
-    <div class="intern-company">Xiaohongshu (RED) AI Search</div>
-    <div class="intern-work">🛠️ <b>Worked on:</b> <span>多智能体系统和 Agentic RL</span></div>
+    <div class="exp-title"><b>Xiaohongshu</b> <span class="exp-program">AI Search</span></div>
+    <div class="exp-desc"><div>Worked on multi-agent systems and agentic RL.</div></div>
   </li>
   <li>
-    <div class="intern-company">Huawei Noah's Ark Lab</div>
-    <div class="intern-work">🛠️ <b>Worked on:</b> <span>LLM agentic memory and self-bootstrapping RAG</span></div>
+    <div class="exp-title"><b>Huawei Noah's Ark Lab</b></div>
+    <div class="exp-desc"><div>Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.</div></div>
   </li>
   <li>
-    <div class="intern-company">Microsoft Research Asia</div>
-    <div class="intern-work">🛠️ <b>Worked on:</b> <span>Knowledge representation learning & joint training of GNNs & LMs</span></div>
+    <div class="exp-title"><b>Microsoft Research Asia</b></div>
+    <div class="exp-desc"><div>Worked on knowledge representation learning and joint training of GNNs & LMs.</div></div>
   </li>
 </ul>
 
