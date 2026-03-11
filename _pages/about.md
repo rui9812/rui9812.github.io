@@ -32,6 +32,45 @@ redirect_from:
     color: #111827;
   }
 
+  /* --- 研究兴趣标签美化 (极简学术风) --- */
+  .research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0;
+  }
+
+  .research-tag {
+    background-color: #f8fafc;
+    color: #0f172a;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+  }
+
+  /* 添加学术风的高级蓝色小圆点作为 Icon */
+  .research-tag::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #0284c7; /* 与主题蓝呼应 */
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .research-tag:hover {
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
   /* --- 实习经历专属美化 (时间线胶囊版) --- */
   .exp-list {
     padding-left: 0;
@@ -136,7 +175,15 @@ redirect_from:
 
 ## 🧑‍🎓 About Me
 
-My name is Rui Li. I am currently a second-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on Self-Evolving LLM Agents and Retrieval-Augmented Generation. I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
+My name is Rui Li. I am currently a third-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). 
+
+My current research mainly focuses on:
+<div class="research-tags">
+  <span class="research-tag">Agentic Memory</span>
+  <span class="research-tag">LLM-Based Multi-Agent Systems</span>
+  <span class="research-tag">Self-Evolving LLM Agents</span>
+</div>
+I also maintain a strong interest in GNNs and Knowledge Graphs, particularly their interactions with LLM systems.
 
 ## 🗞️ News
 
