@@ -175,9 +175,7 @@ redirect_from:
 
 ## 🧑‍🎓 About Me
 
-My name is Rui Li. I am currently a third-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). 
-
-My current research mainly focuses on:
+My name is Rui Li. I am currently a third-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on:
 <div class="research-tags">
   <span class="research-tag">Agentic Memory</span>
   <span class="research-tag">LLM-Based Multi-Agent Systems</span>
