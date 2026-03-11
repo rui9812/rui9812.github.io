@@ -42,40 +42,40 @@ redirect_from:
   .exp-list li {
     margin-bottom: 1.5em; 
     padding-left: 16px;
-    border-left: 3px solid #e2e8f0; /* 左侧添加时间线风格的浅色竖线 */
+    border-left: 3px solid #e2e8f0; 
     transition: border-color 0.3s ease;
   }
 
   .exp-list li:hover {
-    border-left-color: #93c5fd; /* 鼠标悬浮时竖线变蓝，增加动态质感 */
+    border-left-color: #93c5fd; 
   }
 
   .exp-title {
     font-size: 1.1em;
-    font-family: 'Montserrat', sans-serif !important; /* 公司名使用更硬朗的字体 */
+    font-family: 'Montserrat', sans-serif !important; 
     font-weight: 700;
     color: #111827;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 6px; /* 拉开标题和描述的一点点距离 */
+    margin-bottom: 6px; 
   }
 
   .exp-program {
     font-family: 'Inter', sans-serif !important;
     font-weight: 600;
     color: #0369a1; 
-    background-color: #e0f2fe; /* 纯色软背景，去掉生硬的边框 */
+    background-color: #e0f2fe; 
     padding: 3px 12px;
-    border-radius: 20px; /* 极致圆角的胶囊形状 */
+    border-radius: 20px; 
     font-size: 0.75em;
-    letter-spacing: 0.5px; /* 稍微拉开字母间距，显得更精致 */
+    letter-spacing: 0.5px; 
   }
 
   .exp-desc {
     font-family: 'Inter', sans-serif !important;
-    color: #64748b; /* 更高级的灰蓝色，与纯黑标题形成鲜明对比 */
+    color: #64748b; 
     font-size: 0.95em;
     line-height: 1.6;
   }
@@ -91,7 +91,7 @@ redirect_from:
     line-height: 1.6;
   }
   
-  /* 将斜体的会议名称渲染为高亮标签 */
+  /* 已接收会议标签 (高亮蓝) */
   .pub-list em {
     font-style: normal;
     font-weight: 600;
@@ -103,6 +103,12 @@ redirect_from:
     margin-right: 8px;
     display: inline-block;
     margin-top: 4px;
+  }
+
+  /* 在投论文标签 (高级灰) */
+  .pub-list em.under-review {
+    color: #4b5563; 
+    background-color: #f3f4f6; 
   }
 
   /* 将 Paper/Code 链接渲染为现代按钮 */
@@ -140,6 +146,7 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 ## 🗞️ News
 
+- 🎉 One paper about agent optimization has been accepted by **ICLR 2026**.
 - 🎉🎉 Two papers about LLM memory have been accepted by **NeurIPS 2025**.
 - 🎉 One paper about RAG has been accepted by **KDD 2025**.
 - 🎉 One paper about KG has been accepted by **ICML 2024**.
@@ -174,6 +181,18 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 ## 📚 Selected Publications
 
 <ul class="pub-list">
+  <li>
+    <b>Prompt and Parameter Co-Optimization for Large Language Models</b><br>
+    Xiaohe Bo*, <b>Rui Li*</b>, Zexu Sun, Quanyu Dai, Zeyu Zhang, Zihang Tian, Xu Chen, Zhenhua Dong<br>
+    <em>ICLR 2026</em> 
+  </li>
+
+  <li>
+    <b>Towards Adaptive, Scalable, and Robust Coordination of LLM Agents: A Dynamic Ad-Hoc Networking Perspective</b><br>
+    <b>Rui Li</b>, Zeyu Zhang, Xiaohe Bo, Quanyu Dai, Chaozhuo Li, Feng Wen, Xu Chen<br>
+    <em class="under-review">Under Review</em> 
+  </li>
+
   <li>
     <b>CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension</b><br>
     <b>Rui Li</b>, Zeyu Zhang, Xiaohe Bo, Zihang Tian, Xu Chen, Quanyu Dai, Zhenhua Dong, Ruiming Tang<br>
@@ -225,7 +244,7 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
 
 ## 🏆 Awards
 
-- Outstanding Innovative Talents Cultivation Programs, Renmin University of China, 2024.
+- Outstanding Innovative Talents Cultivation Programs, 2024-2025.
 - Outstanding Master's Thesis in Liaoning Province, 2023.
 - National Scholarship for Postgraduate Students, 2022.
 - Outstanding Graduate Student, Dalian University of Technology, 2022.
