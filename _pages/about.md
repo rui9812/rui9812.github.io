@@ -60,7 +60,7 @@ redirect_from:
     display: inline-block;
     width: 6px;
     height: 6px;
-    background-color: #0284c7; /* 与主题蓝呼应 */
+    background-color: #0284c7; 
     border-radius: 50%;
     margin-right: 8px;
   }
@@ -175,9 +175,7 @@ redirect_from:
 
 ## 🧑‍🎓 About Me
 
-My name is Rui Li. I am currently a third-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). 
-
-My current research mainly focuses on:
+My name is Rui Li. I am currently a third-year PhD candidate in Renmin University of China, supervised by [Prof. Xu Chen](https://scholar.google.com/citations?user=loPoqy0AAAAJ&hl=en&oi=ao). Before embarking on my PhD journey, I received my BSc and MSc degrees in Computer Science at Dalian University of Technology, under the guidance of [Prof. Yanming Shen](https://scholar.google.com/citations?user=MvlgpWcAAAAJ&hl=en&oi=ao). My current research mainly focuses on:
 <div class="research-tags">
   <span class="research-tag">Agentic Memory</span>
   <span class="research-tag">LLM-Based Multi-Agent Systems</span>
@@ -195,7 +193,9 @@ I also maintain a strong interest in GNNs and Knowledge Graphs, particularly the
 - 🎉🎉 Two papers about KG and GNN have been accepted by **ICML 2022**.
 
 <div style="background-color: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 18px; margin: 25px 0; border-radius: 4px;">
-  <p style="color: #92400e; margin: 0; font-size: 0.95em;">💡 I expect to graduate in June 2027. I am currently seeking internship opportunities related to <b>LLM Agents</b>, particularly focusing on <b>Multi-Agent Systems</b> and <b>Agentic Memory</b>. Please feel free to contact me if you are interested in my research or background.</p>
+  <p style="color: #92400e; margin: 0; font-size: 0.95em;">
+    💡 I am expected to graduate in June 2027. I am currently seeking internship opportunities related to LLM-based Agents, especially <b style="color: #c2410c;">Multi-Agent Systems</b> and <b style="color: #c2410c;">Agentic Memory</b>. Please feel free to contact me if you are interested in my research or background.
+  </p>
 </div>
 
 ## 🧑‍💻 Internship Experiences
