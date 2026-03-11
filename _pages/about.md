@@ -39,8 +39,9 @@ redirect_from:
     margin-top: 15px;
   }
   
+  /* 这里缩小了各项之间的行距，让排版更紧凑 */
   .exp-list li {
-    margin-bottom: 1.2em;
+    margin-bottom: 0.8em; 
   }
 
   .exp-title {
@@ -54,7 +55,7 @@ redirect_from:
 
   .exp-program {
     font-weight: 600;
-    color: #0369a1; /* 稍深的蓝色 */
+    color: #0369a1; 
     background-color: #f0f9ff;
     padding: 2px 8px;
     border-radius: 4px;
@@ -63,9 +64,9 @@ redirect_from:
   }
 
   .exp-desc {
-    color: #4b5563; /* 较柔和的灰色，与标题拉开区分度 */
+    color: #4b5563; 
     font-size: 0.95em;
-    margin-top: 4px;
+    margin-top: 2px;
     display: flex;
   }
 
@@ -83,7 +84,7 @@ redirect_from:
   }
   
   .pub-list li {
-    margin-bottom: 1.5em; /* 拉开每篇论文的间距 */
+    margin-bottom: 1.5em; 
     line-height: 1.6;
   }
   
@@ -91,8 +92,8 @@ redirect_from:
   .pub-list em {
     font-style: normal;
     font-weight: 600;
-    color: #0284c7; /* 深蓝色 */
-    background-color: #f0f9ff; /* 浅蓝背景 */
+    color: #0284c7; 
+    background-color: #f0f9ff; 
     padding: 2px 8px;
     border-radius: 6px;
     font-size: 0.9em;
@@ -158,11 +159,11 @@ My name is Rui Li. I am currently a second-year PhD candidate in Renmin Universi
     <div class="exp-desc"><div>Worked on multi-agent systems and agentic RL.</div></div>
   </li>
   <li>
-    <div class="exp-title"><b>Huawei Noah's Ark Lab</b></div>
+    <div class="exp-title"><b>Huawei Noah's Ark Lab</b> <span class="exp-program">Agentic Memory</span></div>
     <div class="exp-desc"><div>Worked on LLM agentic memory and self-bootstrapping retrieval-augmented generation.</div></div>
   </li>
   <li>
-    <div class="exp-title"><b>Microsoft Research Asia</b></div>
+    <div class="exp-title"><b>Microsoft Research Asia</b> <span class="exp-program">Graph Learning</span></div>
     <div class="exp-desc"><div>Worked on knowledge representation learning and joint training of GNNs & LMs.</div></div>
   </li>
 </ul>
